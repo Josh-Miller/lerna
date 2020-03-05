@@ -1,3 +1,4 @@
+FROM mesosphere/aws-cli
 FROM python:3-alpine
 FROM node:10-alpine
 RUN yarn global add lerna@^3.20.2
